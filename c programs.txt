@@ -1,0 +1,148 @@
+#include <stdio.h>
+#include<limits.h>
+
+int main()
+{
+    float a;
+    a=INT_MIN;
+    printf("%f",a);
+    
+
+    return 0;
+}
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    double a;
+    a=23.78;
+    printf("%f",a);
+    return 0;
+}
+output=23.780000
+
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    int i=65;
+    for(int i=65;i<=90;i++){
+        printf("%c=%d",i,i);
+    }
+    return 0;
+}
+
+A=65B=66C=67D=68E=69F=70G=71H=72I=73J=74K=75L=76M=77N=78O=79P=80Q=81R=82S=83T=84U=85V=86W=87X=88Y=89Z=90   
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    int i=97;
+    for(int i=97;i<=122;i++){
+        printf("%c=%d",i,i);
+    }
+    return 0;
+}
+
+a=97b=98c=99d=100e=101f=102g=103h=104i=105j=106k=107l=108m=109n=110o=111p=112q=113r=114s=115t=116u=117v=118w=119x=120y=121z=122
+
+\n,\r,\b,\f
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    int a;
+    a=printf("hello\n");
+    printf("%d",a);
+    return 0;
+}
+hello                                                                                                                         
+6 
+
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    int a,b,c,d;
+    d=scanf("%d%d%d",&a,&b,&c);
+    //a=printf("hello\n");
+    printf("%d",d);
+    return 0;
+}                                         45                                                                                                                            
+789                                                                                                                           
+7896                                                                                                                          
+3  
+
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    printf("%d",'b'+'a');
+}
+o/p--->195
+
+
+#include <stdio.h>
+//#include<limits.h>
+
+int main()
+{
+    float a=fmod(12.7,5.2);
+    printf("%f",a);
+}   
+o/p---->>   2.300000
+
+
+ 
+
+#include <stdio.h>
+
+int main()
+{
+   int a=5,b=6,c;
+   if(a){
+        printf("yes");
+   }
+   else{
+       printf("no");
+   }
+   c=b&&a;
+   printf("%d",a);
+    return 0;
+}    yes5 
+
+
+#include <stdio.h>
+
+int main()
+{
+   int a=5,b=6,c;
+   c=a<<b;
+   printf("%d",c);
+    return 0;
+}
+
+o/p--> 320
+
+#include <stdio.h>
+
+int main()
+{
+    int a=0,b=5,c;
+    c=7?a:b;
+    printf("%d",c);
+}
+o/o\p--> 0
+
